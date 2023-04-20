@@ -20,6 +20,7 @@
    justify-content: center;
    position: relative;
 }
+
 .burger-btn {
    background-image: url("../../resourses/mobile/burger_mobile-version.png");
    width: 44px;
@@ -33,7 +34,6 @@
    width: 100%;
    height: 100vh;
    display: flex;
-
    flex-direction: column;
    align-items: center;
 }
