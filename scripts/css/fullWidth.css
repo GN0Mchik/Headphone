@@ -1,0 +1,46 @@
+.fullWidthPhoto {
+   width: 100%;
+   max-height: 786px;
+   height: 786px;
+   background-image: url(/resourses/desktop/two-human.png);
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   gap: 39px;
+}
+.fullTitle {
+   font-weight: 700;
+   font-size: 100px;
+   line-height: 73.52%;
+   color: #ff25c2;
+   max-width: 560px;
+   width: auto;
+}
+.fullSubTitle {
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 30px;
+   color: white;
+   max-width: 671px;
+   text-align: center;
+}
+@media (max-width: 1199px) {
+   .fullWidthPhoto {
+      background-position: center;
+   }
+}
+@media (max-width: 767px) {
+   .fullTitle {
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 73.52%;
+      max-width: 320px;
+   }
+   .fullSubTitle {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      max-width: 320px;
+   }
+}
