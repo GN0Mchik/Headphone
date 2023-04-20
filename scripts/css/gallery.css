@@ -93,3 +93,18 @@
 .gallery__control-next:hover {
    opacity: 0.5;
 }
+@media (max-width: 1199px) {
+   .gallery_text {
+      font-size: 80px;
+   }
+}
+@media (max-width: 767px) {
+   .gallery_text {
+      font-size: 60px;
+   }
+}
+@media (max-width: 430px) {
+   .gallery_text {
+      font-size: 40px;
+   }
+}

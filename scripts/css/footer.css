@@ -23,3 +23,55 @@
 .link-footer:hover {
    color: #ff25c2;
 }
+.footer {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.footer_navigate {
+   max-width: 603px;
+   width: 100%;
+   margin-top: 178px;
+   display: flex;
+   gap: 43px;
+}
+.fot_link {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   letter-spacing: -0.03em;
+   text-transform: uppercase;
+   color: white;
+   text-decoration: none;
+}
+.date_nothing {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   margin-top: 74px;
+   margin-bottom: 54px;
+}
+.date_nothing > h2 {
+   color: #ff25c2;
+   font-weight: 700;
+   font-size: 35px;
+   line-height: 42px;
+}
+@media (max-width: 1199px) {
+   .link-footer {
+      font-size: 45px;
+   }
+}
+@media (max-width: 767px) {
+   .link-footer {
+      font-size: 25px;
+   }
+   .footer_navigate {
+      flex-direction: column;
+      align-items: center;
+   }
+   .date_nothing {
+      justify-content: center;
+      gap: 10px;
+   }
+}
