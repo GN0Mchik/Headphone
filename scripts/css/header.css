@@ -1,0 +1,25 @@
+.nav {
+   display: flex;
+   width: 603px;
+   gap: 43px;
+   justify-content: space-between;
+}
+.nav_link-header {
+   font-weight: 400;
+   font-size: 18px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+}
+.header_inner {
+   padding: 44px 0px 60px 0px;
+   display: flex;
+   justify-content: center;
+}
+@media (max-width: 1199px) {
+}
+@media (max-width: 767px) {
+   .nav {
+      display: none;
+   }
+}

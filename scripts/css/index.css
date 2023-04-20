@@ -1,10 +1,27 @@
 @import url(./header.css);
+@import url(./headphone.css);
+@import url(./sell.css);
+
+body {
+   width: 100%;
+   height: 100%;
+   background-color: black;
+}
 .container {
    max-width: 1150px;
    margin: 0 auto;
    width: 100%;
-   height: 600px;
-   background-color: black;
+}
+h1,
+h2,
+h3,
+a,
+p {
+   letter-spacing: -0.03em;
+   font-family: "Inter", sans-serif;
+}
+html {
+   scroll-behavior: smooth;
 }
 @media (max-width: 1199px) {
    .container {
