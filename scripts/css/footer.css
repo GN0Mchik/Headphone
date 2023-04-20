@@ -67,6 +67,7 @@
       font-size: 25px;
    }
    .footer_navigate {
+      margin-top: 65px;
       flex-direction: column;
       align-items: center;
    }
