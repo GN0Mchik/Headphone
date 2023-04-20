@@ -1,7 +1,7 @@
-@import url(./header.css);
-@import url(./headphone.css);
-@import url(./sell.css);
-@import url(./fullWidth.css);
+@import url("../css/header.css");
+@import url("../css/headphone.css");
+@import url("../css/sell.css");
+@import url("../css/fullWidth.css");
 
 body {
    width: 100%;
