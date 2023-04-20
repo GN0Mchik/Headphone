@@ -1,5 +1,5 @@
 .white_headphone {
-   background-image: url("../resourses/whiteheadphones.png");
+   background-image: url("../../resourses/whiteheadphones.png");
    position: relative;
    background-size: cover;
    width: 100%;
@@ -30,7 +30,7 @@
    width: 207px;
 }
 .black_headphone {
-   background: url("../resourses/blackheadphones.png");
+   background: url("../../resourses/blackheadphones.png");
    position: relative;
    background-size: cover;
    width: 100%;
@@ -41,7 +41,7 @@
    border: 1px solid white;
 }
 .mobile_block {
-   background: url("../resourses/mobile.png");
+   background: url("../../resourses/mobile.png");
    position: relative;
    background-size: cover;
    width: 100%;

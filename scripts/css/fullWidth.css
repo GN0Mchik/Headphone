@@ -2,7 +2,7 @@
    width: 100%;
    max-height: 786px;
    height: 786px;
-   background: url("../resourses/desktop/two-human.png");
+   background: url("../../resourses/desktop/two-human.png");
    display: flex;
    justify-content: center;
    flex-direction: column;
