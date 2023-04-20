@@ -1,0 +1,79 @@
+.quality_full-width {
+   width: 100%;
+   max-height: 1040px;
+   height: 1040px;
+   background: url("../../resourses/desktop/girl.png") no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.quality_title {
+   color: white;
+   font-weight: 700;
+   font-size: 100px;
+   line-height: 73.52%;
+   text-align: center;
+   letter-spacing: -0.06em;
+}
+.quality_subtitle {
+   color: white;
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 90%;
+   text-align: center;
+   letter-spacing: -0.06em;
+   max-width: 942px;
+}
+.quality_content {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 130px;
+   gap: 40px;
+}
+.quality-btn {
+   margin-top: 20px;
+   max-width: 866px;
+   width: 90%;
+   height: 110px;
+   border: 1px solid white;
+   border-radius: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 30px;
+   color: white;
+   text-transform: uppercase;
+}
+.quality-btn:hover {
+   background-color: white;
+   color: black;
+}
+@media (max-width: 1199px) {
+   .quality_title {
+      font-size: 80px;
+   }
+   .quality_subtitle {
+      font-size: 38px;
+   }
+   .quality_full-width {
+      max-height: 1181px;
+      height: 1181px;
+   }
+}
+@media (max-width: 767px) {
+   .quality_title {
+      font-size: 45px;
+   }
+   .quality_subtitle {
+      font-size: 25px;
+   }
+   .quality_full-width {
+      max-height: 932px;
+      height: 932px;
+   }
+}

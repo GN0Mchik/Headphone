@@ -1,0 +1,25 @@
+.nav_link-footer {
+   width: 100%;
+   display: flex;
+   gap: 30px;
+}
+.footer_nav {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 68px;
+}
+.link-footer {
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 73.52%;
+   text-align: center;
+   letter-spacing: -0.06em;
+   color: white;
+   text-decoration: none;
+   width: 211px;
+}
+.link-footer:hover {
+   color: #ff25c2;
+}

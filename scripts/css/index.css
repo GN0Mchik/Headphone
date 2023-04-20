@@ -2,7 +2,10 @@
 @import url("../css/headphone.css");
 @import url("../css/sell.css");
 @import url("../css/fullWidth.css");
-
+@import url("../css/description.css");
+@import url("../css/quality.css");
+@import url("../css/gallery.css");
+@import url("../css/footer.css");
 body {
    width: 100%;
    height: 100%;
