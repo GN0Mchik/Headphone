@@ -1,0 +1,42 @@
+.headphone_title {
+   font-weight: 700;
+   font-size: 150px;
+   line-height: 133px;
+   color: #ff25c2;
+   padding-bottom: 40px;
+}
+.headphone {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.headphone_subtitle {
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 30px;
+   text-align: center;
+   color: white;
+   width: 430px;
+}
+.headphone_text {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+@media (max-width: 1199px) {
+   .headphone_title {
+      font-size: 120px;
+   }
+}
+@media (max-width: 767px) {
+   .headphone_title {
+      font-size: 60px;
+      line-height: 73px;
+   }
+   .headphone_subtitle {
+      font-size: 16px;
+      line-height: 19px;
+      width: 299px;
+   }
+}
